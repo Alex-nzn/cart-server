@@ -1,0 +1,1754 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imgName": "appleWatch",
+      "title": "Часы Apple Watch Белый",
+      "price": 18000,
+      "cat": "watch",
+      "color": "white",
+      "desc": "Стильные и современные часы Apple Watch в белом цвете."
+    },
+    {
+      "id": 2,
+      "imgName": "imac",
+      "title": "iMac",
+      "price": 140000,
+      "cat": "comp",
+      "memory": "2 Tb",
+      "color": "white",
+      "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете."
+    },
+    {
+      "id": 3,
+      "imgName": "ipad",
+      "title": "iPad",
+      "price": 60000,
+      "cat": "tablet",
+      "memory": "64 Gb",
+      "color": "gray",
+      "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете."
+    },
+    {
+      "id": 4,
+      "imgName": "iphone",
+      "title": "iPhone",
+      "price": 50000,
+      "cat": "phone",
+      "memory": "128 Gb",
+      "color": "black",
+      "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете."
+    },
+    {
+      "id": 5,
+      "imgName": "macmini",
+      "title": "MacMini",
+      "price": 72000,
+      "cat": "comp",
+      "memory": "1 Tb",
+      "color": "spacegray",
+      "desc": "Компактный компьютер MacMini с памятью 1 Тб в цвете 'серый космос'."
+    },
+    {
+      "id": 6,
+      "imgName": "macpro",
+      "title": "MacPro",
+      "price": 120000,
+      "cat": "comp",
+      "memory": "1 Tb",
+      "color": "black",
+      "desc": "Мощный профессиональный компьютер MacPro с памятью 1 Тб в черном цвете."
+    },
+    {
+      "id": 7,
+      "imgName": "macpro2022",
+      "title": "MacPro 2022",
+      "price": 180000,
+      "cat": "comp",
+      "memory": "2 Tb",
+      "color": "gray",
+      "desc": "Современный профессиональный компьютер MacPro 2022 с памятью 2 Тб в сером цвете."
+    },
+    {
+      "id": 8,
+      "imgName": "macbook",
+      "title": "Apple MacBook Air 13",
+      "price": 110000,
+      "cat": "note",
+      "memory": "512 Gb",
+      "color": "gray",
+      "desc": "Ультратонкий ноутбук Apple MacBook Air 13 с памятью 512 Гб в сером цвете."
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "slug": "all",
+      "title": "Все"
+    },
+    {
+      "id": 2,
+      "slug": "watch",
+      "title": "Часы"
+    },
+    {
+      "id": 3,
+      "slug": "comp",
+      "title": "Компьютеры"
+    },
+    {
+      "id": 4,
+      "slug": "tablet",
+      "title": "Планшеты"
+    },
+    {
+      "id": 5,
+      "slug": "phone",
+      "title": "Смартфоны"
+    },
+    {
+      "id": 6,
+      "slug": "note",
+      "title": "Ноутбуки"
+    }
+  ],
+  "filterValues": {
+    "price": {
+      "min": 0,
+      "max": 200000
+    },
+    "memory": [
+      "0 Tb",
+      "64 Gb",
+      "128 Gb",
+      "512 Gb",
+      "1 Tb",
+      "2 Tb"
+    ],
+    "colors": [
+      "white",
+      "gray",
+      "spacegray",
+      "black"
+    ]
+  },
+  "orders": [
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 1
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 2
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 1
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 7
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 8
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 9
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 10
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 11
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 12
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 13
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 14
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 15
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 16
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 17
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 18
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 19
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 20
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 21
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 22
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 23
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 24
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 25
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 26
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 27
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 28
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 5
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 29
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 30
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 31
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 32
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 33
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 34
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 35
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 36
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 37
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 38
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 39
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 40
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 41
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 42
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 43
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 44
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 45
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 46
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 47
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 48
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 49
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 50
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 51
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 52
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 53
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 54
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 55
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 56
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 57
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 58
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 59
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 60
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 61
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 62
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 63
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 64
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 65
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 66
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 67
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 68
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 69
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 70
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 71
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 72
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 73
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 74
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 75
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 76
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 77
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 78
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 79
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [],
+      "id": 80
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 1
+        }
+      ],
+      "id": 81
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 1,
+          "imgName": "appleWatch",
+          "title": "Часы Apple Watch Белый",
+          "price": 18000,
+          "cat": "watch",
+          "color": "white",
+          "desc": "Стильные и современные часы Apple Watch в белом цвете.",
+          "count": 1
+        }
+      ],
+      "id": 82
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 1,
+          "imgName": "appleWatch",
+          "title": "Часы Apple Watch Белый",
+          "price": 18000,
+          "cat": "watch",
+          "color": "white",
+          "desc": "Стильные и современные часы Apple Watch в белом цвете.",
+          "count": 2
+        }
+      ],
+      "id": 83
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 1,
+          "imgName": "appleWatch",
+          "title": "Часы Apple Watch Белый",
+          "price": 18000,
+          "cat": "watch",
+          "color": "white",
+          "desc": "Стильные и современные часы Apple Watch в белом цвете.",
+          "count": 3
+        }
+      ],
+      "id": 84
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 1,
+          "imgName": "appleWatch",
+          "title": "Часы Apple Watch Белый",
+          "price": 18000,
+          "cat": "watch",
+          "color": "white",
+          "desc": "Стильные и современные часы Apple Watch в белом цвете.",
+          "count": 3
+        },
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 1
+        }
+      ],
+      "id": 85
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 1
+        }
+      ],
+      "id": 86
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 2
+        }
+      ],
+      "id": 87
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 1,
+          "imgName": "appleWatch",
+          "title": "Часы Apple Watch Белый",
+          "price": 18000,
+          "cat": "watch",
+          "color": "white",
+          "desc": "Стильные и современные часы Apple Watch в белом цвете.",
+          "count": 2
+        },
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 8
+        },
+        {
+          "id": 4,
+          "imgName": "iphone",
+          "title": "iPhone",
+          "price": 50000,
+          "cat": "phone",
+          "memory": "128 Gb",
+          "color": "black",
+          "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 88
+    },
+    {
+      "name": "Юрий",
+      "email": "info@webcademy.ru",
+      "items": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 1
+        },
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 1
+        }
+      ],
+      "id": 89
+    },
+    {
+      "name": "Александр",
+      "email": "alex-nzn@mail.ru",
+      "items": [
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 1
+        }
+      ],
+      "id": 90
+    }
+  ]
+}
